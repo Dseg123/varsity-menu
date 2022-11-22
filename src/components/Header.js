@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => (
   <header>
-    <h1>Classic Combos</h1>
+    <h1>Classic ACombos</h1>
   </header>
 )
 

@@ -12,7 +12,7 @@ const Receipt = props => {
         <h2>Your order</h2>
         <dl>
           {props.purchasedItems.map(purchasedItem => (
-            <div class="receipt-item">
+            <div className="receipt-item">
               <dt>{purchasedItem.name}</dt>
               <dd>{purchasedItem.price}</dd>
             </div>
